@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>انتخاب نیروی کار</title>
+  <style>
+    body {
+      font-family: 'Vazir', Tahoma, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      direction: rtl;
+    }
+    h1 {
+      color: #3f51b5;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .card a {
+      display: inline-block;
+      background-color: #3f51b5;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    .card a:hover {
+      background-color: #2c387e;
+    }
+  </style>
+</head>
+<body>
+  <h1>یکی از همکاران ما را برای سفارش انتخاب کنید</h1>
+  <div class="cards">
+    <div class="card">
+      <img src="images/ali.jpg" alt="علی" />
+      <h2>علی محمدی</h2>
+      <p>متخصص طراحی سایت و رابط کاربری</p>
+      <a href="ali.html">مشاهده پروفایل</a>
+    </div>
+    <div class="card">
+      <img src="images/reza.jpg" alt="رضا" />
+      <h2>رضا احمدی</h2>
+      <p>برنامه‌نویس بک‌اند و توسعه‌دهنده</p>
+      <a href="reza.html">مشاهده پروفایل</a>
+    </div>
+  </div>
+</body>
+</html>
